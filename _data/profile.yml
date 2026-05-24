@@ -13,7 +13,7 @@ positions:
 
 email: "jerry38250325@gmail.com"
 github: Maruu0127
-# cv_link: /assets/Taehoon_Kim_CV.pdf  # [활성화 방법] 전화번호를 가린 CV PDF를 assets/Taehoon_Kim_CV.pdf 로 넣고 이 줄의 주석을 해제하면 CV 버튼이 표시됩니다.
+cv_link: /assets/Taehoon_Kim_CV.pdf    # 전화번호 제거된 CV
 # gscholar: xxxxxxxxxxxx          # [TODO] Google Scholar ID (citations?user= 뒤 값) 입력 시 표시
 # linkedin: your-linkedin-id      # [TODO] 있으면 입력
 # orcid: 0000-0000-0000-0000      # [TODO] 있으면 입력
@@ -48,26 +48,26 @@ education:
   date: "Mar. 2019 - Aug. 2025"
 
 # --- 경력 (최신순) ---
-# 각 항목 옆 로고를 표시하려면 assets/images/badges/ 에 이미지를 넣고 logo: 경로를 지정하세요.
+# logo: 항목 옆 정사각형 사진 (중앙 crop 표시). assets/images/experience/ 에 위치.
 experience:
 - name: "Nat'l Center of Excellence in Software, KGU"
   dept: "Graduate Teaching Assistant"
   date: "Sep. 2025 - present"
-  # logo: /assets/images/badges/kgu.png
+  logo: /assets/images/experience/kgu-sw.jpg
 - name: "Military–Academia Joint AI Education, ROK DCC"
   dept: "Teaching Assistant"
   date: "2024 - 2025"
-  # logo: /assets/images/badges/rok-dcc.png
+  logo: /assets/images/experience/rok-dcc.png
 - name: "AI Vision Lab, Kyonggi University"
   dept: "Undergraduate Research Assistant"
   position: "Advisor: Prof. Junho Ahn"
   date: "May 2024 - Aug. 2025"
-  # logo: /assets/images/badges/kgu.png
+  logo: /assets/images/experience/ai-vision-lab.png
 - name: "Purdue University (K-SW Square)"
   dept: "Research Intern"
   position: "Advisors: E. T. Matson & A. Smith"
   date: "Oct. 2023 - Dec. 2023"
-  # logo: /assets/images/badges/purdue.png
+  logo: /assets/images/experience/purdue.webp
 
 # --- 특허 ---
 patents:

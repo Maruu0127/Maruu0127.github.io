@@ -7,7 +7,7 @@
         <div class="col-md-6 mb-3">
             <div class="media h-100">
                 {% if item.logo %}
-                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="mr-3" style="width: 56px; height: 56px; object-fit: contain;">
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="mr-3 rounded flex-shrink-0" style="width: 88px; height: 88px; object-fit: cover; object-position: center;">
                 {% endif %}
                 <div class="media-body">
                     <div class="font-weight-bold">{{ item.name }}</div>
