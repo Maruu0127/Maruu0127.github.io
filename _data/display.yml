@@ -4,6 +4,5 @@ homepage:
   show_selected_publications: true # 홈에 대표 논문(selected: true) 표시
   num_news: 10
 
-# 푸터 문구. 템플릿 제작자 링크는 유지하는 것을 권장합니다(라이선스 매너).
-footer_text: >-
-  <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage</a>
+# 푸터 우측 문구 (비워두면 표시 안 함)
+footer_text: ""
