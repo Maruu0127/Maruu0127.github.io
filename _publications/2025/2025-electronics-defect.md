@@ -5,6 +5,7 @@ selected:       false
 pub:            "Electronics (MDPI)"
 pub_post:       ", vol. 14, no. 17, art. no. 3455"
 pub_date:       "2025"
+cover:          /assets/images/covers/structural-defect.png
 authors:
   - Sehun Lee
   - Taehoon Kim

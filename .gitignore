@@ -11,3 +11,6 @@ Gemfile.lock
 
 # 고해상도 원본(웹에는 assets의 축소본 사용)
 image_publication/
+
+# 논문 원본 PDF (웹 비공개, 로컬 보관)
+pdf_publication/

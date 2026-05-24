@@ -5,6 +5,7 @@ selected:       false
 pub:            "Journal of the Korea Society of Computer and Information (JKSCI)"
 pub_post:       ", vol. 29, no. 10, pp. 47–57"
 pub_date:       "2024"
+cover:          /assets/images/covers/long-queue.png
 authors:
   - Taehoon Kim
   - Jiyoung Na

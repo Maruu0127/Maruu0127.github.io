@@ -5,6 +5,7 @@ selected:       false
 pub:            "17th International Conference on Ubiquitous and Future Networks (ICUFN)"
 pub_post:       ", Milan, Italy"
 pub_date:       "2026"
+cover:          /assets/images/covers/weighted-kd.png
 authors:
   - Doyoung Koh
   - Taehoon Kim
