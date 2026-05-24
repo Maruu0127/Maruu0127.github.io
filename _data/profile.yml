@@ -75,7 +75,7 @@ patents:
 
 # --- Honors (명예/장학) — pdf: 항목은 상장 PDF 보기 링크가 생성됩니다 ---
 honors:
-- name: "Letter of Appreciation, ROK Defense Communications Command"
+- name: "Letter of Appreciation, ROK Defense Communication Command"
   date: 2026
   pdf: /assets/honors/rok-dcc-appreciation.pdf
 - name: "AI & SW Talent Scholarship, Noh Youngbaek Scholarship Foundation"
