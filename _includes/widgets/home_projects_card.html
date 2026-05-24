@@ -1,0 +1,24 @@
+{% comment %} 홈 화면 Projects 미리보기 카드 — 지정(selected) 프로젝트를 1단 리스트로, 하단에 All Projects 링크. {% endcomment %}
+{% assign projects = include.projects %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-folder-open"></i> Projects{% endif %}
+    </h6>
+    {% for item in projects %}
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-4 col-xl-3 mb-md-0 p-md-3 p-3">
+            {%- if item.cover -%}
+            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+            {%- else -%}
+            <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
+            {%- endif -%}
+        </div>
+        <div class="col-md-8 col-xl-9 d-flex align-items-center p-2 pl-md-0">
+            {{ item.content }}
+        </div>
+    </div>
+    {% endfor %}
+    <h6 class="d-block p-3 mt-0 text-right">
+        <a href="{{ 'showcase' | relative_url }}">All Projects <i class="fas fa-angle-double-right"></i></a>
+    </h6>
+</div>

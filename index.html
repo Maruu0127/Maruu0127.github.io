@@ -26,6 +26,15 @@ navbar_title: Home
         %}
         {% endif %}
 
+        {% assign featured_projects = site.showcase | where: "selected", true | sort: "selected_order" %}
+        {% if featured_projects.size > 0 %}
+        {%
+        include widgets/home_projects_card.html
+        projects=featured_projects
+        title='<i class="fas fa-folder-open"></i> Projects'
+        %}
+        {% endif %}
+
         {% include widgets/patent_card.html %}
 
         {% include widgets/honors_card.html %}

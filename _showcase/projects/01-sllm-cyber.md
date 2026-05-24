@@ -1,5 +1,7 @@
 ---
 show: true
+selected: true
+selected_order: 1
 width: 6
 date: 2026-04-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"
