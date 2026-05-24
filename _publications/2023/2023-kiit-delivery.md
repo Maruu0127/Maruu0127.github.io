@@ -4,6 +4,7 @@ date:           2023-07-01 00:01:00 +0900
 selected:       false
 pub:            "2023 KIIT Summer Conference"
 pub_date:       "2023"
+cover:          /assets/images/covers/autonomous-driving.png
 authors:
   - Yechan Lee
   - Taehoon Kim

@@ -14,3 +14,6 @@ image_publication/
 
 # 논문 원본 PDF (웹 비공개, 로컬 보관)
 pdf_publication/
+
+# 프로젝트 이미지 원본 (로컬 보관, 처리 후 assets 사용)
+image_project/

@@ -5,6 +5,7 @@ selected:       false
 pub:            "2025 KAD (Korea Data Science) Spring Conference"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Outstanding Paper Award</span>'
 pub_date:       "2025"
+cover:          /assets/images/covers/latent-hotspot.png
 authors:
   - Sehun Lee
   - Taehoon Kim

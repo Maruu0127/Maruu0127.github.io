@@ -9,7 +9,7 @@ pub_date:       "2025"
 abstract: >-
   A robust spatial-transformation architecture for unsupervised X-ray anomaly detection in
   smartphone lens-actuator modules.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/xray-uninet.png
 authors:
   - Taehoon Kim
   - Sehun Lee
