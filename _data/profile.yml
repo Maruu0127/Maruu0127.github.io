@@ -8,13 +8,11 @@ navbar_name: "Taehoon Kim"
 
 positions:
 - name: "M.S. Student in Computer Science"
-- name: "Kyonggi University, Suwon, Korea"
-  # logo: /assets/images/badges/kgu.png   # 학교 로고 추가 시 주석 해제
 
 email: "jerry38250325@gmail.com"
-github: Maruu0127
+# github: Maruu0127               # GitHub 버튼 제거됨 (필요 시 주석 해제)
 cv_link: /assets/Taehoon_Kim_CV.pdf    # 전화번호 제거된 CV
-# gscholar: xxxxxxxxxxxx          # [TODO] Google Scholar ID (citations?user= 뒤 값) 입력 시 표시
+gscholar: "https://scholar.google.com/citations?user=O30uZmkAAAAJ&hl=ko"
 # linkedin: your-linkedin-id      # [TODO] 있으면 입력
 # orcid: 0000-0000-0000-0000      # [TODO] 있으면 입력
 
@@ -31,8 +29,7 @@ short_bio: >-
     <strong>anomaly detection</strong> via distillation-based teacher–student frameworks.
   </p>
 
-# [TODO] assets/images/photos/portrait.jpg 를 본인 사진으로 교체하세요.
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/taehoon-kim.jpg
 # portrait_caption: >-
 #   Caption here.
 
