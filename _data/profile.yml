@@ -51,11 +51,11 @@ education:
 # logo: 항목 옆 정사각형 사진 (중앙 crop 표시). assets/images/experience/ 에 위치.
 experience:
 - name: "Nat'l Center of Excellence in Software, KGU"
-  dept: "Graduate Teaching Assistant"
+  dept: "Graduate TA"
   date: "Sep. 2025 - present"
   logo: /assets/images/experience/kgu-sw.jpg
 - name: "Military–Academia Joint AI Education, ROK DCC"
-  dept: "Teaching Assistant"
+  dept: "Teaching Assistant & Project Mentor"
   date: "2024 - 2025"
   logo: /assets/images/experience/rok-dcc.png
 - name: "AI Vision Lab, Kyonggi University"
