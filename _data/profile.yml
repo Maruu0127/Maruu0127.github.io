@@ -1,0 +1,68 @@
+# ============================================================
+#  프로필 정보 — 홈 화면 상단 카드에 표시됩니다.
+#  [TODO] 표시된 부분을 본인 정보로 교체하세요.
+# ============================================================
+
+primary_name: "Your Name"          # [TODO] 영문 이름 (예: Gildong Hong)
+secondary_name: ""                  # 한글 이름 등 보조 표기 (선택, 예: 홍길동)
+navbar_name: "Your Name"           # [TODO] 상단 네비게이션바에 표시될 이름
+
+positions:
+- name: "M.S. Student"             # [TODO] 학위과정 (예: M.S. Student / Ph.D. Student)
+- name: "[Lab Name], [University]" # [TODO] 소속 연구실 · 대학
+  # logo: /assets/images/badges/your_univ.png   # 로고 표시 시 주석 해제 (선택)
+
+email: "jerry38250325@gmail.com"
+# cv_link: /assets/cv.pdf          # CV 파일을 assets/에 넣고 주석 해제 (선택)
+
+# --- 소셜/학술 링크 (사용할 것만 주석 해제하여 채우세요) ---
+# gscholar: xxxxxxxxxxxx           # Google Scholar 사용자 ID (citations?user= 뒤의 값)
+github: your-github-id             # [TODO] GitHub 사용자명 (예: gildong)
+# linkedin: your-linkedin-id       # linkedin.com/in/<여기>
+# orcid: 0000-0000-0000-0000
+# twitter: your_twitter_id         # '@' 제외
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+    I am a graduate student researching <strong>anomaly detection</strong> and
+    <strong>multi-modal learning</strong> for <strong>industrial quality inspection</strong>.
+    My current work develops <em>cross-modal anomaly detection</em> models that jointly learn from
+    heterogeneous modalities (e.g., RGB and X-ray) to detect defects that are difficult to capture
+    from any single modality alone.
+  </p>
+  <p>
+    I am broadly interested in unsupervised representation learning, computer vision, and building
+    reliable models for real-world manufacturing. My goal is to publish this research in
+    top-tier journals such as ESWA and EAAI.
+  </p>
+
+# [TODO] assets/images/photos/portrait.jpg 를 본인 사진으로 교체하세요.
+portrait_url: /assets/images/photos/portrait.jpg
+# portrait_caption: >-           # 사진 아래 캡션 (선택). 필요 없으면 주석 처리.
+#   Photo caption here.
+
+# --- 학력 (최신순) ---
+education:
+- name: "[University Name]"        # [TODO]
+  # logo: /assets/images/badges/your_univ.png
+  dept: "[Department / Lab]"
+  position: "M.S. Student"
+  date: "Mar. 2024 - present"      # [TODO]
+- name: "[Undergraduate University]"  # [TODO]
+  # logo: /assets/images/badges/your_bs_univ.png
+  dept: "[Department]"
+  position: "B.S."
+  date: "Mar. 2020 - Feb. 2024"    # [TODO]
+
+# --- 경력/인턴 (선택, 필요 시 주석 해제) ---
+# experience:
+# - name: "[Company / Lab]"
+#   dept: "[Team]"
+#   position: "Research Intern"
+#   date: "Jun. 2023 - Aug. 2023"
+
+# --- 수상/명예 (선택, 필요 시 채우기) ---
+# awards:
+# - name: "[Award Name]"
+#   date: 2024

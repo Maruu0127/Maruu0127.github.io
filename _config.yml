@@ -1,0 +1,26 @@
+# ============================================================
+#  사이트 전역 설정 (Jekyll)
+#  - 이 파일을 수정하면 `bundle exec jekyll serve`를 재시작해야 반영됩니다.
+# ============================================================
+
+# [중요] GitHub Pages 개인 사이트(username.github.io)는 baseurl을 비워둡니다("").
+#        프로젝트 사이트(username.github.io/repo)일 때만 "/repo" 형태로 둡니다.
+baseurl: ""
+
+# 사이트 메타 정보 (SEO/브라우저 탭 표시용) — [TODO] 이름으로 교체
+title: "Your Name | Homepage"
+description: "Personal academic homepage — Anomaly Detection, Multi-modal Learning."
+# url: "https://your-github-id.github.io"   # [TODO] 배포 후 본인 주소로 채우기 (선택)
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+
+timezone: Asia/Seoul
+
+collections:
+  - publications
+  - news
+  - showcase
+  - posts

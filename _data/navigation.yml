@@ -1,0 +1,8 @@
+pages:
+# NOTE: 여기의 `name` 은 각 페이지 front matter 의 `navbar_title` 와 일치해야 합니다.
+- name: Home
+  url: /
+- name: Publications
+  url: /publications
+- name: Projects
+  url: /showcase

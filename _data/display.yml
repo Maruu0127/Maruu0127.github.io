@@ -1,0 +1,9 @@
+homepage:
+  show_experience: true            # 학력/경력/수상 카드 표시
+  show_news: false                 # News 미사용 (필요 시 true 로 변경)
+  show_selected_publications: true # 홈에 대표 논문(selected: true) 표시
+  num_news: 10
+
+# 푸터 문구. 템플릿 제작자 링크는 유지하는 것을 권장합니다(라이선스 매너).
+footer_text: >-
+  <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage</a>
