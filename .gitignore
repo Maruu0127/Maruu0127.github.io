@@ -8,3 +8,6 @@ vendor/
 Gemfile.lock
 
 .DS_Store
+
+# 고해상도 원본(웹에는 assets의 축소본 사용)
+image_publication/

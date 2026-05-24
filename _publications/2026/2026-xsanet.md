@@ -9,7 +9,7 @@ pub_date:       "2026"
 abstract: >-
   An attention-enhanced teacher–student framework with a spatial transformer for unsupervised
   anomaly detection in industrial X-ray images of smartphone modules.
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/covers/xsanet.png
 authors:
   - Taehoon Kim
   - Sehun Lee

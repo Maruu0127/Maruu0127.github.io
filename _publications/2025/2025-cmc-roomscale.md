@@ -9,7 +9,7 @@ pub_date:       "2025"
 abstract: >-
   A zero-shot, vision-only pipeline for robust 3D map reconstruction and obstacle detection in
   room-scale environments that lack strong geometric cues.
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/covers/zeroshot-3d-roomscale.png
 authors:
   - Taehoon Kim
   - Sehun Lee
