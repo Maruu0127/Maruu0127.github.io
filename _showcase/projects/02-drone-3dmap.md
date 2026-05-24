@@ -5,6 +5,7 @@ selected_order: 2
 width: 6
 date: 2026-03-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"
+cover: /assets/images/projects/nrf.jpeg
 ---
 <div class="card-body">
   <h5 class="card-title">Zero-Shot Vision Drones for Indoor Disaster Mapping</h5>

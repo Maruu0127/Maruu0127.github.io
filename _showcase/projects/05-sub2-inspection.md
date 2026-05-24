@@ -3,6 +3,7 @@ show: true
 width: 6
 date: 2024-11-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"
+cover: /assets/images/projects/im.png
 ---
 <div class="card-body">
   <h5 class="card-title">Defect Detection — SUB2 ASS'Y GAP Inspection</h5>

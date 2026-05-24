@@ -5,6 +5,7 @@ selected_order: 3
 width: 6
 date: 2025-09-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"
+cover: /assets/images/projects/nrf.jpeg
 ---
 <div class="card-body">
   <h5 class="card-title">Pedestrian Safety via 3D Congestion Mapping</h5>

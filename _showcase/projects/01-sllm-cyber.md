@@ -5,6 +5,7 @@ selected_order: 1
 width: 6
 date: 2026-04-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"
+cover: /assets/images/projects/rok-dcc.png
 ---
 <div class="card-body">
   <h5 class="card-title">sLLM-Based Query Recommendation for Cybersecurity Monitoring</h5>

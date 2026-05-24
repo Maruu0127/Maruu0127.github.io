@@ -3,6 +3,7 @@ show: true
 width: 6
 date: 2024-09-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"
+cover: /assets/images/projects/rok-dcc.png
 ---
 <div class="card-body">
   <h5 class="card-title">Multimodal Vision Military Fitness Assessment</h5>

@@ -3,6 +3,7 @@ show: true
 width: 6
 date: 2023-10-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"
+cover: /assets/images/projects/purdue.png
 ---
 <div class="card-body">
   <h5 class="card-title">Mixed-Reality Interactive Cooking Assistant</h5>

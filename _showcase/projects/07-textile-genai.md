@@ -3,6 +3,7 @@ show: true
 width: 6
 date: 2024-07-15 00:01:00 +0900
 group: "Research &amp; Industry Projects"
+cover: /assets/images/projects/ktdi.png
 ---
 <div class="card-body">
   <h5 class="card-title">Textile-Knowledge Generative AI — Data Processing</h5>
