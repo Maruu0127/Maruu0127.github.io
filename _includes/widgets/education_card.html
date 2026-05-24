@@ -1,0 +1,20 @@
+{% if site.data.profile.education %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-graduation-cap"></i> Education</h6>
+    <ul class="list-unstyled mb-0 p-3">
+        {% for item in site.data.profile.education %}
+        <li class="media {% unless forloop.last %}mb-3{% endunless %}">
+            {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="mr-3" style="width: 44px; height: 44px; object-fit: contain;">{% endif %}
+            <div class="media-body">
+                <div class="font-weight-bold">{{ item.name }}</div>
+                <div class="small">{{ item.dept }}</div>
+                <div class="small d-flex">
+                    <div>{{ item.position }}</div>
+                    <div class="mt-auto ml-auto pl-2 no-break"><em>{{ item.date }}</em></div>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}

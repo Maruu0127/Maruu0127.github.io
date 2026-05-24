@@ -1,5 +1,5 @@
 # ============================================================
-#  프로필 정보 — 홈 화면 좌측 카드 + Experience 카드에 표시됩니다.
+#  프로필 정보 — 홈 화면 좌측 카드 + Education/Experience/Honors 카드에 표시됩니다.
 # ============================================================
 
 primary_name: "Taehoon Kim"
@@ -13,10 +13,10 @@ positions:
 
 email: "jerry38250325@gmail.com"
 github: Maruu0127
+# cv_link: /assets/Taehoon_Kim_CV.pdf  # [활성화 방법] 전화번호를 가린 CV PDF를 assets/Taehoon_Kim_CV.pdf 로 넣고 이 줄의 주석을 해제하면 CV 버튼이 표시됩니다.
 # gscholar: xxxxxxxxxxxx          # [TODO] Google Scholar ID (citations?user= 뒤 값) 입력 시 표시
 # linkedin: your-linkedin-id      # [TODO] 있으면 입력
 # orcid: 0000-0000-0000-0000      # [TODO] 있으면 입력
-# cv_link: /assets/cv.pdf         # [TODO] CV link 시: 전화번호 등 개인정보를 가린 PDF를 assets/에 넣고 주석 해제
 
 short_bio_text_justify: true
 short_bio: >-
@@ -48,41 +48,47 @@ education:
   date: "Mar. 2019 - Aug. 2025"
 
 # --- 경력 (최신순) ---
+# 각 항목 옆 로고를 표시하려면 assets/images/badges/ 에 이미지를 넣고 logo: 경로를 지정하세요.
 experience:
 - name: "Nat'l Center of Excellence in Software, KGU"
   dept: "Graduate Teaching Assistant"
   date: "Sep. 2025 - present"
+  # logo: /assets/images/badges/kgu.png
 - name: "Military–Academia Joint AI Education, ROK DCC"
   dept: "Teaching Assistant"
   date: "2024 - 2025"
+  # logo: /assets/images/badges/rok-dcc.png
 - name: "AI Vision Lab, Kyonggi University"
   dept: "Undergraduate Research Assistant"
   position: "Advisor: Prof. Junho Ahn"
   date: "May 2024 - Aug. 2025"
+  # logo: /assets/images/badges/kgu.png
 - name: "Purdue University (K-SW Square)"
   dept: "Research Intern"
   position: "Advisors: E. T. Matson & A. Smith"
   date: "Oct. 2023 - Dec. 2023"
+  # logo: /assets/images/badges/purdue.png
 
-# --- 수상 / 명예 (선별, 최신순) ---
-awards:
+# --- 특허 ---
+patents:
+- name: "Deep Learning-Based Queue Recognition System"
+  number: "Korea Patent Application No. 10-2024-0144283"
+  date: 2024
+
+# --- Honors (명예/장학) — pdf: 항목은 상장 PDF 보기 링크가 생성됩니다 ---
+honors:
 - name: "Letter of Appreciation, ROK Defense Communications Command"
   date: 2026
-- name: "Best Paper Award, 2025 Korea Data Science Winter Conference"
-  date: 2025
-- name: "Outstanding Paper Award, 2025 Korea Data Science Winter Conference"
-  date: 2025
-- name: "Outstanding Paper Award, 2025 Korea Data Science Spring Conference"
-  date: 2025
+  pdf: /assets/honors/rok-dcc-appreciation.pdf
 - name: "AI & SW Talent Scholarship, Noh Youngbaek Scholarship Foundation"
   date: 2025
+  pdf: /assets/honors/noh-youngbaek-scholarship.pdf
 - name: "Faculty Council Honors Scholarship, Kyonggi University"
   date: 2025
+  pdf: /assets/honors/kgu-faculty-honors-scholarship.pdf
 - name: "Highest Honors (Valedictorian), Kyonggi University"
   date: 2025
-- name: "1st Prize, KGU Advanced Capstone Design Competition"
+- name: "Semester High Honors (GPA 4.5 / 4.5), Kyonggi University"
   date: 2024
-- name: "3rd Prize, KGU SW Imagination Company Project Competition"
-  date: 2024
-- name: "Semester High Honors (GPA 4.5/4.5), Kyonggi University"
-  date: 2024
+- name: "Semester High Honors, Kyonggi University"
+  date: "2019, 2022, 2023"

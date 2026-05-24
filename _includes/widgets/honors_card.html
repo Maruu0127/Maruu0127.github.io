@@ -1,0 +1,17 @@
+{% comment %} Honors — item.pdf 가 있으면 상장 PDF 보기 링크 표시 {% endcomment %}
+{% if site.data.profile.honors %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-award"></i> Honors</h6>
+    <ul class="list-unstyled mb-0 p-3 small">
+        {% for item in site.data.profile.honors %}
+        <li class="d-flex {% unless forloop.last %}mb-2{% endunless %}">
+            <div>
+                {{ item.name }}
+                {% if item.pdf %}<a href="{{ item.pdf | relative_url }}" target="_blank" title="View certificate (PDF)" class="ml-1"><i class="fas fa-file-pdf"></i></a>{% endif %}
+            </div>
+            <div class="ml-auto pl-2 no-break"><em>{{ item.date }}</em></div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}

@@ -1,0 +1,16 @@
+{% if site.data.profile.patents %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-lightbulb"></i> Patent</h6>
+    <ul class="list-unstyled mb-0 p-3">
+        {% for item in site.data.profile.patents %}
+        <li class="{% unless forloop.last %}mb-3{% endunless %}">
+            <div class="d-flex">
+                <div class="font-weight-bold">{{ item.name }}</div>
+                <div class="ml-auto pl-2 no-break"><em>{{ item.date }}</em></div>
+            </div>
+            {% if item.number %}<div class="small text-muted">{{ item.number }}</div>{% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
