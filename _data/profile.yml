@@ -1,68 +1,88 @@
 # ============================================================
-#  프로필 정보 — 홈 화면 상단 카드에 표시됩니다.
-#  [TODO] 표시된 부분을 본인 정보로 교체하세요.
+#  프로필 정보 — 홈 화면 좌측 카드 + Experience 카드에 표시됩니다.
 # ============================================================
 
-primary_name: "Your Name"          # [TODO] 영문 이름 (예: Gildong Hong)
-secondary_name: ""                  # 한글 이름 등 보조 표기 (선택, 예: 홍길동)
-navbar_name: "Your Name"           # [TODO] 상단 네비게이션바에 표시될 이름
+primary_name: "Taehoon Kim"
+secondary_name: "김태훈"
+navbar_name: "Taehoon Kim"
 
 positions:
-- name: "M.S. Student"             # [TODO] 학위과정 (예: M.S. Student / Ph.D. Student)
-- name: "[Lab Name], [University]" # [TODO] 소속 연구실 · 대학
-  # logo: /assets/images/badges/your_univ.png   # 로고 표시 시 주석 해제 (선택)
+- name: "M.S. Student in Computer Science"
+- name: "Kyonggi University, Suwon, Korea"
+  # logo: /assets/images/badges/kgu.png   # 학교 로고 추가 시 주석 해제
 
 email: "jerry38250325@gmail.com"
-# cv_link: /assets/cv.pdf          # CV 파일을 assets/에 넣고 주석 해제 (선택)
-
-# --- 소셜/학술 링크 (사용할 것만 주석 해제하여 채우세요) ---
-# gscholar: xxxxxxxxxxxx           # Google Scholar 사용자 ID (citations?user= 뒤의 값)
-github: your-github-id             # [TODO] GitHub 사용자명 (예: gildong)
-# linkedin: your-linkedin-id       # linkedin.com/in/<여기>
-# orcid: 0000-0000-0000-0000
-# twitter: your_twitter_id         # '@' 제외
+github: Maruu0127
+# gscholar: xxxxxxxxxxxx          # [TODO] Google Scholar ID (citations?user= 뒤 값) 입력 시 표시
+# linkedin: your-linkedin-id      # [TODO] 있으면 입력
+# orcid: 0000-0000-0000-0000      # [TODO] 있으면 입력
+# cv_link: /assets/cv.pdf         # [TODO] CV link 시: 전화번호 등 개인정보를 가린 PDF를 assets/에 넣고 주석 해제
 
 short_bio_text_justify: true
 short_bio: >-
   <p>
-    I am a graduate student researching <strong>anomaly detection</strong> and
-    <strong>multi-modal learning</strong> for <strong>industrial quality inspection</strong>.
-    My current work develops <em>cross-modal anomaly detection</em> models that jointly learn from
-    heterogeneous modalities (e.g., RGB and X-ray) to detect defects that are difficult to capture
-    from any single modality alone.
+    I am an M.S. student in Computer Science at Kyonggi University, advised by Prof. Junho Ahn.
+    My research aims to develop <strong>robust perception for real-world, safety-critical environments</strong>
+    through <strong>multimodal representation learning</strong> with computer vision and vision–language models.
   </p>
   <p>
-    I am broadly interested in unsupervised representation learning, computer vision, and building
-    reliable models for real-world manufacturing. My goal is to publish this research in
-    top-tier journals such as ESWA and EAAI.
+    I am particularly interested in spatial recognition and autonomous-driving perception via
+    multi-sensor fusion (RGB, LiDAR, Radar). I also study industrial and cross-modal
+    <strong>anomaly detection</strong> via distillation-based teacher–student frameworks.
   </p>
 
 # [TODO] assets/images/photos/portrait.jpg 를 본인 사진으로 교체하세요.
 portrait_url: /assets/images/photos/portrait.jpg
-# portrait_caption: >-           # 사진 아래 캡션 (선택). 필요 없으면 주석 처리.
-#   Photo caption here.
+# portrait_caption: >-
+#   Caption here.
 
 # --- 학력 (최신순) ---
 education:
-- name: "[University Name]"        # [TODO]
-  # logo: /assets/images/badges/your_univ.png
-  dept: "[Department / Lab]"
-  position: "M.S. Student"
-  date: "Mar. 2024 - present"      # [TODO]
-- name: "[Undergraduate University]"  # [TODO]
-  # logo: /assets/images/badges/your_bs_univ.png
-  dept: "[Department]"
-  position: "B.S."
-  date: "Mar. 2020 - Feb. 2024"    # [TODO]
+- name: "Kyonggi University"
+  dept: "Dept. of Computer Science"
+  position: "M.S. Student · Advisor: Junho Ahn · GPA 4.5 / 4.5"
+  date: "Sep. 2025 - present"
+- name: "Kyonggi University"
+  dept: "B.S. in Artificial Intelligence & Restaurant/Culinary"
+  position: "Summa Cum Laude (Valedictorian) · GPA 4.3 / 4.5"
+  date: "Mar. 2019 - Aug. 2025"
 
-# --- 경력/인턴 (선택, 필요 시 주석 해제) ---
-# experience:
-# - name: "[Company / Lab]"
-#   dept: "[Team]"
-#   position: "Research Intern"
-#   date: "Jun. 2023 - Aug. 2023"
+# --- 경력 (최신순) ---
+experience:
+- name: "Nat'l Center of Excellence in Software, KGU"
+  dept: "Graduate Teaching Assistant"
+  date: "Sep. 2025 - present"
+- name: "Military–Academia Joint AI Education, ROK DCC"
+  dept: "Teaching Assistant"
+  date: "2024 - 2025"
+- name: "AI Vision Lab, Kyonggi University"
+  dept: "Undergraduate Research Assistant"
+  position: "Advisor: Prof. Junho Ahn"
+  date: "May 2024 - Aug. 2025"
+- name: "Purdue University (K-SW Square)"
+  dept: "Research Intern"
+  position: "Advisors: E. T. Matson & A. Smith"
+  date: "Oct. 2023 - Dec. 2023"
 
-# --- 수상/명예 (선택, 필요 시 채우기) ---
-# awards:
-# - name: "[Award Name]"
-#   date: 2024
+# --- 수상 / 명예 (선별, 최신순) ---
+awards:
+- name: "Letter of Appreciation, ROK Defense Communications Command"
+  date: 2026
+- name: "Best Paper Award, 2025 Korea Data Science Winter Conference"
+  date: 2025
+- name: "Outstanding Paper Award, 2025 Korea Data Science Winter Conference"
+  date: 2025
+- name: "Outstanding Paper Award, 2025 Korea Data Science Spring Conference"
+  date: 2025
+- name: "AI & SW Talent Scholarship, Noh Youngbaek Scholarship Foundation"
+  date: 2025
+- name: "Faculty Council Honors Scholarship, Kyonggi University"
+  date: 2025
+- name: "Highest Honors (Valedictorian), Kyonggi University"
+  date: 2025
+- name: "1st Prize, KGU Advanced Capstone Design Competition"
+  date: 2024
+- name: "3rd Prize, KGU SW Imagination Company Project Competition"
+  date: 2024
+- name: "Semester High Honors (GPA 4.5/4.5), Kyonggi University"
+  date: 2024

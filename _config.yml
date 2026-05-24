@@ -7,10 +7,10 @@
 #        프로젝트 사이트(username.github.io/repo)일 때만 "/repo" 형태로 둡니다.
 baseurl: ""
 
-# 사이트 메타 정보 (SEO/브라우저 탭 표시용) — [TODO] 이름으로 교체
-title: "Your Name | Homepage"
-description: "Personal academic homepage — Anomaly Detection, Multi-modal Learning."
-# url: "https://your-github-id.github.io"   # [TODO] 배포 후 본인 주소로 채우기 (선택)
+# 사이트 메타 정보 (SEO/브라우저 탭 표시용)
+title: "Taehoon Kim"
+description: "Taehoon Kim — M.S. student at Kyonggi University. Multimodal representation learning, spatial/autonomous-driving perception, and anomaly detection."
+url: "https://maruu0127.github.io"
 
 # Build settings
 markdown: kramdown
