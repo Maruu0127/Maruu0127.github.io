@@ -50,8 +50,14 @@
                         {%- else -%}
                         {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
                         {%- endif -%}
-                        <a class="px-1 no-break" target="_blank" href="{{ gscholar_url }}">
-                            <i class="fab fa-google-scholar"></i>
+                        <a class="px-1 no-break align-middle" target="_blank" href="{{ gscholar_url }}" title="Google Scholar">
+                            <img src="{{ '/assets/images/google-scholar.jpg' | relative_url }}" alt="Google Scholar" style="height: 32px;">
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.cv_link %}
+                        <a class="btn btn-sm btn-outline-secondary align-middle ml-2" target="_blank" href="{{ site.data.profile.cv_link | relative_url }}">
+                            <i class="fas fa-file-alt"></i> CV
                         </a>
                         {% endif %}
                         
@@ -87,15 +93,6 @@
                     </div>
                 </div>
 
-                {% if site.data.profile.cv_link %}
-                <div class="row pt-3">
-                    <div class="col text-center">
-                        <a class="btn btn-sm btn-outline-secondary" target="_blank" href="{{ site.data.profile.cv_link | relative_url }}">
-                            <i class="fas fa-file-alt"></i> CV
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
             </div>
         </div>
     </div>
