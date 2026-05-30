@@ -13,7 +13,8 @@ body_attr: >-
         {% for category in categories %}
         {% assign cat_pubs = site.publications | where: "category", category | sort: "date" | reverse %}
         {% if cat_pubs.size > 0 %}
-        <h2 class="pt-4" id="cat-{{ category | slugify }}">{{ category }}</h2>
+        {% if category == "International Journal" %}{% assign cat_label = "International Journal (SCIE)" %}{% elsif category == "Domestic Journal" %}{% assign cat_label = "Domestic Journal (KCI)" %}{% else %}{% assign cat_label = category %}{% endif %}
+        <h2 class="pt-4" id="cat-{{ category | slugify }}">{{ cat_label }}</h2>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
             {% for item in cat_pubs %}
                 {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
@@ -28,7 +29,8 @@ body_attr: >-
             {% for category in categories %}
             {% assign cat_pubs = site.publications | where: "category", category %}
             {% if cat_pubs.size > 0 %}
-            <a class="nav-link d-block" href="#cat-{{ category | slugify }}">{{ category }}</a>
+            {% if category == "International Journal" %}{% assign cat_label = "International Journal (SCIE)" %}{% elsif category == "Domestic Journal" %}{% assign cat_label = "Domestic Journal (KCI)" %}{% else %}{% assign cat_label = category %}{% endif %}
+            <a class="nav-link d-block" href="#cat-{{ category | slugify }}">{{ cat_label }}</a>
             {% endif %}
             {% endfor %}
         </div>
