@@ -30,6 +30,14 @@ short_bio: >-
     <strong>anomaly detection</strong> via distillation-based teacher–student frameworks.
   </p>
 
+# --- 관심 연구 분야 (홈 화면 About Me 아래 카드에 표시) ---
+research_interests:
+- "Computer Vision"
+- "Autonomous Driving"
+- "Sensor Fusion"
+- "Industrial Anomaly Detection"
+- "Vision–Language Model"
+
 portrait_url: /assets/images/photos/taehoon-kim.jpg
 # portrait_caption: >-
 #   Caption here.
