@@ -11,4 +11,6 @@ authors:
   - Sehun Lee
   - Taehoon Kim
   - Junho Ahn
+links:
+  DOI: https://doi.org/10.32604/cmc.2025.063985
 ---

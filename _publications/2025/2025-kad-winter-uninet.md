@@ -6,9 +6,6 @@ selected_order: 5
 pub:            "2025 KAD (Korea Data Science) Winter Conference"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Outstanding Paper Award</span>'
 pub_date:       "2025"
-abstract: >-
-  A robust spatial-transformation architecture for unsupervised X-ray anomaly detection in
-  smartphone lens-actuator modules.
 cover:          /assets/images/covers/xray-uninet.png
 authors:
   - Taehoon Kim

@@ -12,4 +12,6 @@ authors:
   - Sookyun Kim
   - Junho Ahn
   - Namgi Kim
+links:
+  DOI: https://doi.org/10.3390/electronics14173455
 ---
