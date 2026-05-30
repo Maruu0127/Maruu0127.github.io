@@ -1,6 +1,7 @@
 ---
 title:          "Zero-Shot Based Spatial AI Algorithm for Up-to-Date 3D Vision Map Generations in Highly Complex Indoor Environments"
 date:           2025-07-01 00:01:00 +0900
+category:       "International Journal"
 selected:       true
 selected_order: 3
 pub:            "Computers, Materials & Continua (CMC)"

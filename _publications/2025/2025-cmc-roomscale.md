@@ -1,6 +1,7 @@
 ---
 title:          "Zero-Shot Vision-Based Robust 3D Map Reconstruction and Obstacle Detection in Geometry-Deficient Room-Scale Environments"
 date:           2025-12-01 00:01:00 +0900
+category:       "International Journal"
 selected:       true
 selected_order: 2
 pub:            "Computers, Materials & Continua (CMC)"

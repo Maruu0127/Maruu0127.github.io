@@ -1,6 +1,7 @@
 ---
 title:          "Weighted Knowledge Distillation with DisturbLabel for Robust Learning"
 date:           2026-07-01 00:01:00 +0900
+category:       "International Conference"
 selected:       false
 pub:            "17th International Conference on Ubiquitous and Future Networks (ICUFN)"
 pub_post:       ", Milan, Italy"

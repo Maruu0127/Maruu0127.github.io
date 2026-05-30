@@ -1,6 +1,7 @@
 ---
 title:          "Multiple Camera-Based Real-Time Long Queue Vision Algorithm for Public Safety and Efficiency"
 date:           2024-10-01 00:01:00 +0900
+category:       "Domestic Journal"
 selected:       false
 pub:            "Journal of the Korea Society of Computer and Information (JKSCI)"
 pub_post:       ", vol. 29, no. 10, pp. 47–57"

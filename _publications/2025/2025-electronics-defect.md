@@ -1,6 +1,7 @@
 ---
 title:          "Unsupervised Structural Defect Classification via Real-Time and Noise-Robust Method in Smartphone Small Modules"
 date:           2025-08-01 00:01:00 +0900
+category:       "International Journal"
 selected:       false
 pub:            "Electronics (MDPI)"
 pub_post:       ", vol. 14, no. 17, art. no. 3455"

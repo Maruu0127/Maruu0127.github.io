@@ -1,6 +1,7 @@
 ---
 title:          "Industrial X-ray UniNet: A Robust Spatial Transformation Architecture for X-ray Anomaly Detection in Smartphone Actuator Modules"
 date:           2025-12-12 00:01:00 +0900
+category:       "Domestic Conference"
 selected:       true
 selected_order: 5
 pub:            "2025 KAD (Korea Data Science) Winter Conference"
