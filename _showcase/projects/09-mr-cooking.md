@@ -11,4 +11,10 @@ cover: /assets/images/projects/purdue.png
   <h5 class="card-title">Mixed-Reality Interactive Cooking Assistant</h5>
   <p class="card-text small text-muted mb-2">Purdue University · Oct. 2023 – Dec. 2023</p>
   <p class="card-text">Enhancing the culinary experience with real-time interactive cooking assistance using mixed reality.</p>
+  <p class="card-text small text-muted mb-0">
+    Submitted to 2024 IEEE ISMAR Conference
+    <a class="btn btn-sm btn-outline-secondary ml-2" target="_blank" href="{{ '/assets/papers/mr-cooking-ismar2024.pdf' | relative_url }}">
+      <i class="fas fa-file-pdf"></i> PDF
+    </a>
+  </p>
 </div>
