@@ -27,7 +27,8 @@ short_bio: >-
   <p>
     I am particularly interested in <strong>spatial intelligence</strong> and <strong>autonomous-driving perception</strong> via
     multi-sensor fusion (RGB, LiDAR, Radar). I also study industrial and multimodal
-    <strong>anomaly detection</strong> via distillation-based teacher–student frameworks.
+    <strong>anomaly detection</strong> via distillation-based teacher–student frameworks,
+    and am increasingly interested in <strong>vision–language–action (VLA) models</strong> for embodied decision-making.
   </p>
 
 # --- 관심 연구 분야 (홈 화면 About Me 아래 카드에 표시) ---
@@ -37,6 +38,7 @@ research_interests:
 - "Multi-Sensor Fusion"
 - "Anomaly Detection"
 - "Vision-Language Model"
+- "Vision-Language-Action Model"
 
 portrait_url: /assets/images/photos/taehoon-kim.jpg
 # portrait_caption: >-
