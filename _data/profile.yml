@@ -39,6 +39,10 @@ research_interests:
 - "Vision-Language Model"
 
 portrait_url: /assets/images/photos/taehoon-kim.jpg
+# 프로필 사진 목록 (2장 이상이면 좌측 카드에 넘길 수 있는 캐러셀로 표시, 첫 번째가 기본 노출)
+portraits:
+- /assets/images/photos/taehoon-kim-purdue.jpg
+- /assets/images/photos/taehoon-kim.jpg
 # portrait_caption: >-
 #   Caption here.
 

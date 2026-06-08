@@ -4,14 +4,38 @@
             <div class="card-body px-4 pt-4 pb-3">
                 <div class="row">
                     <div class="col">
-                        {% if site.data.profile.portrait_url %}
+                        {% if site.data.profile.portraits and site.data.profile.portraits.size > 1 %}
+                        <!-- 여러 장이면 넘길 수 있는 캐러셀로 표시 -->
+                        <div id="portraitCarousel" class="carousel slide mb-2" data-ride="false" data-interval="false">
+                            <div class="carousel-inner rounded">
+                                {% for portrait in site.data.profile.portraits %}
+                                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                    <img src="{{ portrait | relative_url }}" class="d-block w-100" alt="Portrait {{ forloop.index }}">
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <a class="carousel-control-prev" href="#portraitCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#portraitCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <ol class="carousel-indicators">
+                                {% for portrait in site.data.profile.portraits %}
+                                <li data-target="#portraitCarousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                        {% elsif site.data.profile.portrait_url %}
                         <!-- When the screen is wider than md, float the portrait on the right -->
                         <div class="figure d-none d-md-block">
-                            <img 
-                                src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid" 
-                                data-toggle="tooltip" 
-                                data-placement="top" 
+                            <img
+                                src="{{ site.data.profile.portrait_url | relative_url }}"
+                                class="figure-img img-fluid"
+                                data-toggle="tooltip"
+                                data-placement="top"
                                 title="{{ site.data.profile.portrait_caption }}">
                         </div>
                         <div class="mb-3 d-md-none text-center">
