@@ -4,7 +4,7 @@ date:           2026-07-01 00:01:00 +0900
 category:       "International Conference"
 selected:       false
 pub:            "17th International Conference on Ubiquitous and Future Networks (ICUFN)"
-pub_post:       ", Milan, Italy"
+pub_post:       ", Milan, Italy, pp. 1103–1105"
 pub_date:       "2026"
 cover:          /assets/images/covers/weighted-kd.png
 authors:
@@ -12,4 +12,6 @@ authors:
   - Taehoon Kim
   - Sehun Lee
   - Namgi Kim
+links:
+  DOI: https://doi.org/10.1109/ICUFN69619.2026.11628808
 ---
