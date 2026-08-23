@@ -20,16 +20,12 @@ gscholar: "https://scholar.google.com/citations?user=O30uZmkAAAAJ&hl=ko"
 short_bio_text_justify: true
 short_bio: >-
   <p>
-    I am an M.S. student in Computer Science at Kyonggi University, advised by Prof. Junho Ahn.
     My research aims to develop <strong>spatial intelligence</strong> for real-world, safety-critical
     environments. I focus on <strong>3D Gaussian Splatting</strong>, from feed-forward reconstruction
-    to post-hoc per-scene optimization, and on making such representations
-    <strong>efficient enough to deploy</strong>.
-  </p>
-  <p>
-    I am also interested in industrial and multimodal <strong>anomaly detection</strong> via
-    distillation-based teacher–student frameworks, and in extending this notion of deviation from
-    learned normality beyond 2D images to <strong>3D scene representations</strong>.
+    to post-hoc per-scene optimization, and on making such representations efficient enough to deploy.
+    I am also interested in industrial and multimodal anomaly detection via distillation-based
+    teacher–student frameworks, and in extending this notion of deviation from learned normality
+    beyond 2D images to 3D scene representations.
   </p>
 
 # --- 관심 연구 분야 (홈 화면 About Me 아래 카드에 표시) ---
