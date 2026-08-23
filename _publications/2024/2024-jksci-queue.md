@@ -9,7 +9,7 @@ pub_date:       "2024"
 cover:          /assets/images/covers/long-queue.png
 authors:
   - Taehoon Kim
-  - Juyoung Na
+  - Jiyoung Na
   - Jiwon Yoon
   - Sehun Lee
   - Junho Ahn

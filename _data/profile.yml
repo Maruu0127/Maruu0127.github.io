@@ -30,8 +30,9 @@ short_bio: >-
 
 # --- 관심 연구 분야 (홈 화면 About Me 아래 카드에 표시) ---
 research_interests:
-- "Spatial Intelligence"
-- "Feed-Forward 3D Gaussian Splatting"
+- "3D Vision"
+- "3D Reconstruction"
+- "3D Gaussian Splatting"
 - "Efficient 3D Representation"
 - "Anomaly Detection"
 
