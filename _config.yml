@@ -9,7 +9,7 @@ baseurl: ""
 
 # 사이트 메타 정보 (SEO/브라우저 탭 표시용)
 title: "Taehoon Kim"
-description: "Taehoon Kim — M.S. student at Kyonggi University. Multimodal representation learning, spatial/autonomous-driving perception, and anomaly detection."
+description: "Taehoon Kim — M.S. student at Kyonggi University. Spatial intelligence, feed-forward 3D Gaussian Splatting, efficient 3D representation, and anomaly detection."
 url: "https://maruu0127.github.io"
 
 # Build settings

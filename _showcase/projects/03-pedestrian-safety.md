@@ -1,7 +1,7 @@
 ---
 show: true
 selected: true
-selected_order: 2
+selected_order: 3
 width: 6
 date: 2025-09-01 00:01:00 +0900
 group: "Research &amp; Industry Projects"

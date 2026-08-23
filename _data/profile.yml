@@ -12,7 +12,7 @@ positions:
 
 email: "jerry38250325@gmail.com"
 # github: Maruu0127               # GitHub 버튼 제거됨 (필요 시 주석 해제)
-cv_link: /assets/Taehoon_Kim_CV.pdf    # 전화번호 제거된 CV
+cv_link: /assets/Taehoon_Kim_CV.pdf    # 전화번호 없는 CV
 gscholar: "https://scholar.google.com/citations?user=O30uZmkAAAAJ&hl=ko"
 # linkedin: your-linkedin-id      # [TODO] 있으면 입력
 # orcid: 0000-0000-0000-0000      # [TODO] 있으면 입력
@@ -21,22 +21,23 @@ short_bio_text_justify: true
 short_bio: >-
   <p>
     I am an M.S. student in Computer Science at Kyonggi University, advised by Prof. Junho Ahn.
-    My research aims to develop <strong>robust perception for real-world, safety-critical environments</strong>
-    through <strong>multimodal representation learning</strong> with computer vision and vision–language models.
+    My research aims to develop <strong>spatial intelligence</strong> for real-world, safety-critical
+    environments. I focus on <strong>3D Gaussian Splatting</strong>, from feed-forward reconstruction
+    to post-hoc per-scene optimization, and on making such representations
+    <strong>efficient enough to deploy</strong>.
   </p>
   <p>
-    I am particularly interested in <strong>spatial intelligence</strong> and <strong>autonomous-driving perception</strong> via
-    multi-sensor fusion (RGB, LiDAR, Radar). I also study industrial and multimodal
-    <strong>anomaly detection</strong> via distillation-based teacher–student frameworks.
+    I am also interested in industrial and multimodal <strong>anomaly detection</strong> via
+    distillation-based teacher–student frameworks, and in extending this notion of deviation from
+    learned normality beyond 2D images to <strong>3D scene representations</strong>.
   </p>
 
 # --- 관심 연구 분야 (홈 화면 About Me 아래 카드에 표시) ---
 research_interests:
-- "Computer Vision"
 - "Spatial Intelligence"
-- "Multi-Sensor Fusion"
+- "Feed-Forward 3D Gaussian Splatting"
+- "Efficient 3D Representation"
 - "Anomaly Detection"
-- "Vision-Language Model"
 
 portrait_url: /assets/images/photos/taehoon-kim.jpg
 # 프로필 사진 목록 (2장 이상이면 좌측 카드에 넘길 수 있는 캐러셀로 표시, 첫 번째가 기본 노출)
@@ -60,13 +61,14 @@ education:
 # --- 경력 (최신순) ---
 # logo: 항목 옆 정사각형 사진 (중앙 crop 표시). assets/images/experience/ 에 위치.
 experience:
-- name: "Nat'l Center of Excellence in Software, KGU"
-  dept: "Graduate Teaching Assistant"
-  date: "Sep. 2025 - present"
-  logo: /assets/images/experience/kgu-sw.jpg
+- name: "V-Lab, Yonsei University"
+  dept: "Research Intern"
+  position: "Advisor: Prof. Eunbyung Park"
+  date: "Jul. 2026 - Aug. 2026"
+  # logo: /assets/images/experience/yonsei-vlab.png   # [TODO] V-Lab 로고 파일 추가 후 주석 해제
 - name: "ROK Defense Communication Command"
   dept: "Teaching Assistant & Project Mentor"
-  date: "2024 - 2025"
+  date: "Sep. 2024 - Jul. 2026"
   logo: /assets/images/experience/rok-dcc.png
 - name: "AI Vision Lab"
   dept: "Undergraduate Research Assistant"
@@ -81,6 +83,12 @@ experience:
 
 # --- 특허 ---
 patents:
+- name: "Device and Method for Determining Defect of OIS Actuator"
+  number: "Korea Patent Application No. 10-2026-0116731"
+  date: 2026
+- name: "Method and Apparatus for Indoor Space Recognition"
+  number: "Korea Patent Application No. 10-2026-0116730"
+  date: 2026
 - name: "Deep Learning-Based Queue Recognition System"
   number: "Korea Patent Application No. 10-2024-0144283"
   date: 2024
@@ -98,7 +106,5 @@ honors:
   pdf: /assets/honors/kgu-faculty-honors-scholarship.pdf
 - name: "Highest Honors (Valedictorian), Kyonggi University"
   date: 2025
-- name: "Semester High Honors (GPA 4.5 / 4.5), Kyonggi University"
-  date: 2024
 - name: "Semester High Honors, Kyonggi University"
-  date: "2019, 2022, 2023"
+  date: "2019, 2022, 2023, 2024"
