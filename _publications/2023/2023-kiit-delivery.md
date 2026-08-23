@@ -9,7 +9,7 @@ cover:          /assets/images/covers/autonomous-driving.png
 authors:
   - Yechan Lee
   - Taehoon Kim
-  - Jiyoung Na
+  - Juyoung Na
   - Jiwon Yoon
   - Sehun Lee
   - Hanyong Lee

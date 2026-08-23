@@ -6,9 +6,6 @@ primary_name: "Taehoon Kim"
 secondary_name: "김태훈"
 navbar_name: "Taehoon Kim"
 
-positions:
-- name: "M.S. Student"
-
 email: "jerry38250325@gmail.com"
 # github: Maruu0127               # GitHub 버튼 제거됨 (필요 시 주석 해제)
 cv_link: /assets/Taehoon_Kim_CV.pdf    # 전화번호 없는 CV
@@ -74,10 +71,15 @@ experience:
   position: "Advisor: Prof. Junho Ahn"
   date: "Sep. 2025 - Jun. 2026"
   logo: /assets/images/experience/kyonggi-univ.png
+- name: "AI Vision Lab, Kyonggi University"
+  dept: "Undergraduate Research Assistant"
+  position: "Advisor: Prof. Junho Ahn"
+  date: "May 2024 - Aug. 2025"
+  logo: /assets/images/experience/kyonggi-univ.png
 - name: "Purdue University"
   dept: "Visiting Research Intern"
   position: "Advisors: E. T. Matson & A. Smith"
-  date: "Oct. 2023 - Dec. 2023"
+  date: "Sep. 2023 - Dec. 2023"
   logo: /assets/images/experience/purdue.webp
 
 # --- 특허 ---

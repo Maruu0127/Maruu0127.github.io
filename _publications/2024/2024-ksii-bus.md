@@ -8,7 +8,7 @@ pub_date:       "2024"
 cover:          /assets/images/covers/line-recognition.png
 authors:
   - Taehoon Kim
-  - Jiyong Na
+  - Juyoung Na
   - Sehun Lee
   - Jiwon Yoon
   - Junho Ahn

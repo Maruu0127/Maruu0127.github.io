@@ -50,6 +50,7 @@
                     </div>
                 </div>
 
+                {% if site.data.profile.positions %}
                 <div class="row small">
                     <div class="col text-center">
                         {% for position in site.data.profile.positions %}
@@ -57,6 +58,7 @@
                         {% endfor %}
                     </div>
                 </div>
+                {% endif %}
 
                 <div class="row small">
                     <div class="col text-center">
