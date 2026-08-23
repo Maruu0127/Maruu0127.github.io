@@ -6,6 +6,7 @@ selected:       false
 pub:            "The Journal of Korean Institute of Information Technology (JKIIT)"
 pub_post:       ", vol. 24, no. 7"
 pub_date:       "2026"
+cover:          /assets/images/covers/traversable-area.png
 authors:
   - Yunjeong Choi
   - Sehun Lee
