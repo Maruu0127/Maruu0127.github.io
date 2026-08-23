@@ -52,7 +52,7 @@ education:
 - name: "Kyonggi University"
   dept: "Dept. of Computer Science"
   position: "M.S. Student · Advisor: Junho Ahn · GPA 4.5 / 4.5"
-  date: "Sep. 2025 - present"
+  date: "Sep. 2025 - Jun. 2026"
 - name: "Kyonggi University"
   dept: "B.S. in Restaurant and Culinary & Artificial Intelligence"
   position: "Summa Cum Laude (Valedictorian) · GPA 4.3 / 4.5"
@@ -62,19 +62,19 @@ education:
 # logo: 항목 옆 정사각형 사진 (중앙 crop 표시). assets/images/experience/ 에 위치.
 experience:
 - name: "V-Lab, Yonsei University"
-  dept: "Research Intern"
+  dept: "Intern"
   position: "Advisor: Prof. Eunbyung Park"
   date: "Jul. 2026 - Aug. 2026"
-  # logo: /assets/images/experience/yonsei-vlab.png   # [TODO] V-Lab 로고 파일 추가 후 주석 해제
+  logo: /assets/images/experience/yonsei-vlab.png
 - name: "ROK Defense Communication Command"
   dept: "Teaching Assistant & Project Mentor"
   date: "Sep. 2024 - Jul. 2026"
   logo: /assets/images/experience/rok-dcc.png
-- name: "AI Vision Lab"
-  dept: "Undergraduate Research Assistant"
+- name: "AI Vision Lab, Kyonggi University"
+  dept: "Full-time Master's Student (RA)"
   position: "Advisor: Prof. Junho Ahn"
-  date: "May 2024 - Aug. 2025"
-  logo: /assets/images/experience/ai-vision-lab.png
+  date: "Sep. 2025 - Jun. 2026"
+  logo: /assets/images/experience/kyonggi-univ.png
 - name: "Purdue University"
   dept: "Visiting Research Intern"
   position: "Advisors: E. T. Matson & A. Smith"
