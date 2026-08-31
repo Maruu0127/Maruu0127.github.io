@@ -16,25 +16,26 @@ gscholar: "https://scholar.google.com/citations?user=O30uZmkAAAAJ&hl=ko"
 short_bio_text_justify: true
 short_bio: >-
   <p>
-    My research aims to develop <strong>spatial intelligence</strong> for real-world, safety-critical
-    environments. I focus on <strong>3D Gaussian Splatting</strong>, from feed-forward reconstruction
-    to post-hoc per-scene optimization, and on making such representations efficient enough to deploy.
-    I am also interested in industrial and multimodal anomaly detection via distillation-based
-    teacher–student frameworks, and in extending this notion of deviation from learned normality
-    beyond 2D images to 3D scene representations.
+    My research is in <strong>computer vision</strong>, spanning 3D reconstruction, unsupervised
+    visual inspection, and scene understanding. A common thread is working around large pretrained
+    models rather than retraining them — post-hoc compaction plug-ins for feed-forward
+    <strong>3D Gaussian Splatting</strong> backbones, and unsupervised anomaly detection for camera
+    lens actuator modules under X-ray and visible-light imaging. I am drawn to problems where a
+    system must be improved under a <strong>fixed backbone, a fixed sensor, or a fixed compute
+    budget</strong>.
   </p>
   <p style="border-left: 3px solid #007bff; background-color: #f8f9fa; padding: 0.75rem 1rem; border-radius: 0.4rem; margin-bottom: 0;">
     I am applying for full-time M.S. programs starting March 2027, and I am looking for labs
-    working on 3D vision, 3D reconstruction, and 3D Gaussian Splatting.
+    working on computer vision, from 3D reconstruction to imaging systems.
   </p>
 
 # --- 관심 연구 분야 (홈 화면 About Me 아래 카드에 표시) ---
 research_interests:
 - "Computer Vision"
 - "3D Reconstruction"
-- "3D Gaussian Splatting"
-- "Efficient 3D Representation"
 - "Anomaly Detection"
+- "Efficient Neural Representation"
+- "Computational Imaging"
 
 portrait_url: /assets/images/photos/taehoon-kim.jpg
 # 프로필 사진 목록 (2장 이상이면 좌측 카드에 넘길 수 있는 캐러셀로 표시, 첫 번째가 기본 노출)
