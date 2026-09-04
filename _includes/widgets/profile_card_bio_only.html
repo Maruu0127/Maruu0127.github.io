@@ -5,7 +5,7 @@
             <div class="card-body p-4">
                 <div class="row px-3 pt-3">
                     <div class="col h3">
-                        About Me
+                        Research Interests
                     </div>
                 </div>
                 <div class="row p-3">
@@ -16,22 +16,6 @@
                     </div>
 
                 </div>
-                {% if site.data.profile.research_interests %}
-                <div class="row px-3 pt-2">
-                    <div class="col h3">
-                        Research Interests
-                    </div>
-                </div>
-                <div class="row px-3 pb-3 pt-1">
-                    <div class="col">
-                        <ul class="text-profile-bio mt-0 mb-0 pl-4">
-                            {% for interest in site.data.profile.research_interests %}
-                            <li class="mb-1 font-italic">{{ interest }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% endif %}
             </div>
         </div>
     </div>

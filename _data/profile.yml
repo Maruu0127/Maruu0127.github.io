@@ -28,14 +28,6 @@ short_bio: >-
     working on computer vision, from 3D reconstruction and industrial inspection to imaging systems.
   </p>
 
-# --- 관심 연구 분야 (홈 화면 About Me 아래 카드에 표시) ---
-research_interests:
-- "Computer Vision"
-- "3D Reconstruction"
-- "Anomaly Detection"
-- "Efficient Neural Representation"
-- "Computational Imaging"
-
 portrait_url: /assets/images/photos/taehoon-kim.jpg
 # 프로필 사진 목록 (2장 이상이면 좌측 카드에 넘길 수 있는 캐러셀로 표시, 첫 번째가 기본 노출)
 portraits:
