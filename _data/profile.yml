@@ -16,11 +16,11 @@ gscholar: "https://scholar.google.com/citations?user=O30uZmkAAAAJ&hl=ko"
 short_bio_text_justify: true
 short_bio: >-
   <p>
-    My research is in <strong>computer vision</strong>, spanning 3D reconstruction, unsupervised
+    My research is in computer vision, spanning 3D reconstruction, unsupervised
     visual inspection, and scene understanding. A common thread is improving a system
-    <strong>with something held fixed</strong> — a pretrained backbone, a sensor, or a compute
+    with something held fixed — a pretrained backbone, a sensor, or a compute
     budget — as in my zero-shot drivable-area and obstacle perception on a mobile robot,
-    post-hoc compaction plug-ins for <strong>3D Gaussian Splatting</strong> backbones and
+    post-hoc compaction plug-ins for 3D Gaussian Splatting backbones and
     unsupervised anomaly detection for lens actuator modules under X-ray and visible-light imaging.
   </p>
   <p style="border-left: 3px solid #007bff; background-color: #f8f9fa; padding: 0.75rem 1rem; border-radius: 0.4rem; margin-bottom: 0;">
